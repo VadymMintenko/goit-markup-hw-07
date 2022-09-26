@@ -499,6 +499,11 @@ footer {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .logo-footer {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -507,12 +512,11 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
 
-.logo-footer {
-  display: block;
+   display: block;
   margin-bottom: 20px;
 }
+
 
 .address-list a {
   text-decoration: none;
@@ -530,7 +534,7 @@ footer {
   margin-bottom: 9px;
 }
 
-.address-list .address-link {
+.address-list .address-list__link {
   text-decoration: none;
   font-family: inherit;
   font-size: 14px;
@@ -543,10 +547,7 @@ footer {
   margin-left: 70px;
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
 
 .footer-title {
   font-family: 'Roboto';
