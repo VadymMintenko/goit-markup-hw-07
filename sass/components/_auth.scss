@@ -1,0 +1,56 @@
+.auth-nav .auth:hover,
+.auth-nav .auth:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.auth-nav a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.auth {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  color: var(--main-text-color);
+  gap: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-svg {
+  fill: var(--main-text-color);
+  gap: 10px;
+}
+
+.auth:hover .icon-svg {
+  fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth:focus .icon-svg {
+  fill: var(--accent-color);
+}
+
+.auth-item {
+  display: inline-block;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
