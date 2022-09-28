@@ -13,21 +13,21 @@
 .benefits-list {
   display: flex;
   gap: 30px;
-}
 
-.benefits-list__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-dark-color);
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-dark-color);
 
-  margin-bottom: 10px;
-}
+    margin-bottom: 10px;
+  }
 
-.benefits-list__description {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--main-text-color);
+  &__description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-text-color);
+  }
 }

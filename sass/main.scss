@@ -1,6 +1,6 @@
 // components
 
-@import './components/components';
+@import './base/base';
 @import './components/logo';
 @import './components/navigation';
 @import './components/auth';
@@ -13,6 +13,9 @@
 @import './components/footer';
 @import './components/header-border';
 @import './components/buttons-portfolio';
+@import './components/projects';
+@import './components/modal';
+@import './components/forms';
 
 // vars
 @import './utils/vars';
