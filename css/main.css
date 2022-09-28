@@ -93,8 +93,7 @@ img {
   display: flex;
   gap: 50px;
 }
-
-.site-nav .link {
+.site-nav__link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -106,22 +105,19 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
-
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
 }
-
-.site-nav {
+.site-nav__link {
   position: relative;
 }
-
-.link {
-  position: relative;
+.site-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .current::after {
@@ -135,12 +131,6 @@ img {
   display: inline-block;
   border-radius: 2px;
   bottom: -1.5%;
-}
-
-.site-nav a {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .auth__link:hover, .auth__link:focus {
@@ -227,7 +217,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .hero__title {
   text-align: center;
   font-family: inherit;
@@ -295,11 +284,9 @@ img {
   display: flex;
   gap: 30px;
 }
-
 .work-list__item {
   position: relative;
 }
-
 .work-list__name-container {
   width: 100%;
   height: 70px;
@@ -307,7 +294,6 @@ img {
   position: absolute;
   bottom: 0;
 }
-
 .work-list__name {
   margin-top: 27px;
   display: block;
@@ -587,6 +573,11 @@ footer {
 }
 
 .button--portfolio {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-width: 73px;
+  border: none;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -596,22 +587,11 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-dark-color);
   background-color: var(--portfolio-buttons-color);
-}
-
-.button--portfolio {
   cursor: pointer;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button--portfolio {
-  display: inline-block;
-  padding: 6px 22px;
-  border-radius: 4px;
-  min-width: 73px;
-  border: none;
 }
 
 .buttons-list {

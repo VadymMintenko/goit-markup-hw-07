@@ -102,7 +102,7 @@ img {
   gap: 50px;
 }
 
-.site-nav .link {
+.site-nav .site-nav__link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -113,12 +113,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .site-nav__link:hover,
+.site-nav .site-nav__link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .site-nav__link.current {
   color: var(--accent-color);
 }
 
@@ -126,7 +126,7 @@ img {
   position: relative;
 }
 
-.link {
+.site-nav__link {
   position: relative;
 }
 

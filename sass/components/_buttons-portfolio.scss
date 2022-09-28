@@ -7,6 +7,12 @@
 }
 
 .button--portfolio {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-width: 73px;
+  border: none;
+
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -16,20 +22,10 @@
   letter-spacing: 0.03em;
   color: var(--main-dark-color);
   background-color: var(--portfolio-buttons-color);
-}
 
-.button--portfolio {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button--portfolio {
-  display: inline-block;
-  padding: 6px 22px;
-  border-radius: 4px;
-  min-width: 73px;
-  border: none;
 }
 
 .buttons-list {

@@ -11,16 +11,16 @@
     url(../images/header-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.hero__title {
-  text-align: center;
-  font-family: inherit;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--title-text-color);
-  margin-bottom: 30px;
+  &__title {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 30px;
+  }
 }
